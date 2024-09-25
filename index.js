@@ -1,7 +1,7 @@
-let valor = 10; // number
-let nome_completo = 'Nayara' // string
-let nomeCompleto = 'Ceasar' // string
-let NomeCompleto = 'Daniel' // string
+let valor = 10; // number o = é chamado é de recebe.
+let nome_completo = 'Nayara' // string é texto snakecase é muito visto no bancodedados
+let nomeCompleto = 'Ceasar' // string camelcase
+let NomeCompleto = 'Daniel' // string pascalcase é muito visto no react
 let verdadeiro = true; // boolean
 let falso = false; // boolean
 
@@ -18,11 +18,11 @@ document.writeln(verdadeiro);
 document.writeln(falso);
 
 const nomeDaTurma = 'FS18';
-document.write("<br><br>");
+document.write("<br><br>"); //o js pode inserir e remover html
 document.write(nomeDaTurma);
 
 // Operadores de atribuição
-// =, +=, -=
+// = recebe, +=atribuidor acrimiental, -= decrimental
 let idade = 34;
 document.write("<br>");
 document.write(idade);
@@ -35,7 +35,7 @@ document.write("<br>");
 document.write(idade);
 
 // Operadores aritméticos
-// +, -, *, /, %
+// +, -, *, /, % resto de operação ou módulo
 document.write("<br>");
 document.write(2+1);
 document.write("<br>");
@@ -45,10 +45,10 @@ document.write(2*6);
 document.write("<br>");
 document.write(6/3);
 document.write("<br>");
-document.write(2%2);
+document.write(2%2); //o % é o resto
 
-// Operadores de comparação
-// ==, !=, ===, !==, <, >, <=, >=
+// Operadores de comparação o resultado é sempre boleano
+// == igaul, != diferente, === estritamente igual, !==, <, >, <=, >=
 document.write("<br>");
 document.write(2==2);
 document.write("<br>");
@@ -71,11 +71,11 @@ document.write("<br>");
 document.write(2>=2);
 
 // Operadores lógicos
-// !, !!, &&, ||
+// !, negação !!,dupla negação &&, e || or comoaração true or false
+document.write("<br>"); //é só uma quebradelinha
 document.write("<br>");
 document.write("<br>");
-document.write("<br>");
-document.write(!true);
+document.write(!true); //não é vderdadeiro
 document.write("<br>");
 document.write(!!3);
 document.write("<br>");
